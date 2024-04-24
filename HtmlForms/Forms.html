@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="get" action="/www.google.com">
+        <fieldset>
+        <legend>Form :</legend>    
+        <label for="name" >Name : </label>
+        <input type="text" name="name" required placeholder="Enter the name" autofocus ><br><br>
+        <label for="age">Age : </label>
+        <input type="number" name="age" required placeholder="Enter the age" maxlength="3" size="3" pattern="[0-9]{3}"><br><br>
+        <label for="Gender">Gender</label><br>
+        
+        <input type="radio" name="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" value="female">
+        <label for="female">Female</label><br>
+        <br>
+        <label for="technicalrating">Technical Rating : 1 </label>
+        <input type="range" name="rating" min="0" max="10" step="1"> 10 <br><br>
+        <label for="place">Choose the Location : </label>
+        <select name="place" size="1">
+            
+            <option value="annanagar">Anna nagar</option>
+            <option value="kilpauk">kilpauk</option>
+            <option value="Kenya">Kenya</option>
+            <option value="california">california</option>
+        </select>
+        <br><br>
+        <textarea cols="50" rows="5" >
+            Enter your comments:
+        </textarea><br>
+        <input type="submit">
+     
+        
+        </fieldset>
+
+        
+    </form>
+    <br>
+    <header>
+        <h1>My Profile</h1>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="./Forms.html" target="_blank">Forms</a><br>
+        <a href="../HtmlBasic/Hello.html" target="_blank">Basic</a>
+    </nav>
+    <article>
+        
+       
+            <pre>
+                <h5>Designation</h5>
+                Loki
+                Software Enginner
+                9080425005
+            </pre>
+        
+    </artical>
+   
+</body>
+</html>
