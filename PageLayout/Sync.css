@@ -1,0 +1,23 @@
+#mainbar:li{
+    
+   
+    background-size: 160px 36px;
+    position: absolute;
+    width: 160px;
+    height: 36px;
+    display: inline;
+}
+#navbar a{
+    text-decoration: none;
+    color: brown;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+#mainmenu{
+    background-color: black;   
+}
